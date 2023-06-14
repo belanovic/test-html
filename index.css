@@ -1,5 +1,5 @@
 .container {
-    width: 400px;
+    width: 500px;
     background: greenyellow;
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +14,10 @@
 .response {
     background: black;
     color: white;
+    min-height: 20px;
     flex: 1 1 100%;
+    width: 100%;
+    overflow-wrap: break-word;
 }
 .image-container {
     flex: 1 1 100%;
